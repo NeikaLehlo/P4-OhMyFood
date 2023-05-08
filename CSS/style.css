@@ -1,0 +1,11 @@
+header {
+  background-color: black;
+}
+header .logo {
+  font-size: 99px;
+}
+header:hover {
+  background-color: #9356DC;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+header {
+    background-color: black;
+
+    .logo {
+        font-size : 99px;
+    }
+    
+    &:hover {
+        background-color: $primary-color;
+    }
+}
