@@ -1,6 +1,21 @@
+
+/****** UTILS ******/
 @import "./utils/reset.scss";
+@import "./utils/base.scss";
 @import "./utils/variable.scss";
 
+/****** COMPONENTS ******/
+@import "./components/logo.scss";
 
+/****** LAYOUT ******/
 @import "./layout/header.scss";
 @import "./layout/footer.scss";
+
+/****** PAGES ******/
+@import "./pages/home.scss";
+@import "./pages/restaurant.scss";
+
+
+
+
+

@@ -1,3 +1,4 @@
+/****** UTILS ******/
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 html,
 body,
@@ -73,5 +74,31 @@ td,
 th {
   padding: 0;
 }
+
+body {
+  width: 100%;
+  max-width: 767px;
+}
+
+/****** COMPONENTS ******/
+.logo {
+  font-family: "Shrikhand", cursive;
+}
+
+/****** LAYOUT ******/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 63px;
+}
+
+.header__title {
+  font-size: 30px;
+  margin-top: 14px;
+  margin-bottom: 5px;
+}
+
+/****** PAGES ******/
 
 /*# sourceMappingURL=style.css.map */
