@@ -1,18 +1,43 @@
 
+/////////////////////
 /****** UTILS ******/
+/////////////////////
+
+/****** reset ******/
 @import "./utils/reset.scss";
-@import "./utils/base.scss";
+/****** variable ******/
 @import "./utils/variable.scss";
+/****** base ******/
+@import "./utils/base.scss";
 
+
+//////////////////////////
 /****** COMPONENTS ******/
-@import "./components/logo.scss";
+//////////////////////////
 
+/****** logo ******/
+@import "./components/logo.scss";
+/****** location ******/
+@import "./components/location.scss";
+
+//////////////////////
 /****** LAYOUT ******/
+//////////////////////
+
+
+/****** header ******/
 @import "./layout/header.scss";
+/****** footer ******/
 @import "./layout/footer.scss";
 
+
+/////////////////////
 /****** PAGES ******/
+/////////////////////
+
+/****** home ******/
 @import "./pages/home.scss";
+/****** restaurant ******/
 @import "./pages/restaurant.scss";
 
 
