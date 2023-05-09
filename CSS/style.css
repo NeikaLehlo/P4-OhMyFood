@@ -87,24 +87,15 @@ body {
   max-width: 767px;
 }
 
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
 /****** COMPONENTS ******/
 /****** logo ******/
 .logo {
   font-family: "Shrikhand", cursive;
-}
-
-/****** location ******/
-.location {
-  display: flex;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
-  gap: 17px;
-  background-color: #eaeaea;
-  color: #353535;
-}
-.location__text {
-  font-weight: 500;
 }
 
 /****** LAYOUT ******/
@@ -126,6 +117,41 @@ body {
 }
 
 /****** footer ******/
+/****** location ******/
+.location {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  background-color: #eaeaea;
+  color: #353535;
+}
+
+/****** explore ******/
+.explore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 288px;
+  background-color: #f7f7f7;
+}
+.explore__title {
+  width: 100%;
+  padding: 0 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.explore__text {
+  width: 100%;
+  padding: 0 30px;
+  margin-bottom: 27px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: #353535;
+}
+
 /****** PAGES ******/
 /****** home ******/
 /****** restaurant ******/

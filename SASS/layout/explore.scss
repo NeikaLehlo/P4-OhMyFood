@@ -1,0 +1,26 @@
+.explore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // gap: 27px;
+    height: 288px;
+    background-color: $light-background;
+    
+
+    &__title{
+        width: 100%;
+        padding: 0 50px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    &__text{
+        width: 100%;
+        padding: 0 30px;
+        margin-bottom: 27px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+        color: $dark-background;
+    }
+}

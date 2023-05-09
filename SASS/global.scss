@@ -17,18 +17,20 @@
 
 /****** logo ******/
 @import "./components/logo.scss";
-/****** location ******/
-@import "./components/location.scss";
+
 
 //////////////////////
 /****** LAYOUT ******/
 //////////////////////
 
-
 /****** header ******/
 @import "./layout/header.scss";
 /****** footer ******/
 @import "./layout/footer.scss";
+/****** location ******/
+@import "./layout/location.scss";
+/****** explore ******/
+@import "./layout/explore.scss";
 
 
 /////////////////////
