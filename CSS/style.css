@@ -98,6 +98,37 @@ h2 {
   font-family: "Shrikhand", cursive;
 }
 
+/****** button ******/
+.btn {
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  background: linear-gradient(193.33deg, #FF79DA -11.44%, #9356DC 123.93%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 1;
+}
+.btn:hover::after {
+  opacity: 1;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 25px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 250ms;
+}
+
 /****** LAYOUT ******/
 /****** header ******/
 .header {
@@ -133,6 +164,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 288px;
   background-color: #f7f7f7;
 }
@@ -150,6 +182,9 @@ h2 {
   font-size: 18px;
   font-weight: 300;
   color: #353535;
+}
+.explore__btn {
+  padding: 0 35px;
 }
 
 /****** PAGES ******/
