@@ -1,2 +1,2 @@
-- Why "index".html ?
 - FA links ?
+- class for components ( like step)

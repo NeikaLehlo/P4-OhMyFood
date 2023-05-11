@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 288px;
-    background-color: $light-background;
+    background-color: $color-grey-light;
     
 
     &__title{
@@ -21,10 +21,10 @@
         text-align: center;
         font-size: 18px;
         font-weight: 300;
-        color: $dark-background;
+        color: $color-grey-dark;
     }
 
     &__btn{
-        padding: 0 35px;
+        padding: 0 20px;
     }
 }

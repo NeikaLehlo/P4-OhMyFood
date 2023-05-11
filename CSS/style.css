@@ -129,6 +129,38 @@ h2 {
   transition: opacity 250ms;
 }
 
+/****** step ******/
+.step {
+  display: flex;
+  align-items: center;
+  width: 323px;
+  height: 72px;
+  background-color: #f7f7f7;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  gap: 22px;
+}
+.step__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background-color: #9356DC;
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+  position: relative;
+  left: -10px;
+}
+.step__fa {
+  color: #7e7e7e;
+  width: 20px;
+}
+.step__fa--color {
+  color: #9356DC;
+}
+
 /****** LAYOUT ******/
 /****** header ******/
 .header {
@@ -140,7 +172,6 @@ h2 {
   position: relative;
   z-index: 1;
 }
-
 .header__title {
   font-size: 30px;
   margin-top: 14px;
@@ -184,7 +215,26 @@ h2 {
   color: #353535;
 }
 .explore__btn {
-  padding: 0 35px;
+  padding: 0 20px;
+}
+
+/****** process ******/
+.process__section {
+  display: flex;
+  justify-content: center;
+  margin: 50px 20px;
+}
+.process__section__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+.process__section__box__steps {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-left: 10px;
 }
 
 /****** PAGES ******/

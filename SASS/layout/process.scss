@@ -1,0 +1,20 @@
+.process__section {
+    display: flex;
+    justify-content: center;
+    margin : 50px 20px;
+
+    &__box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+    
+        &__steps {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            margin-left: 10px;
+        }
+    }
+}
+
