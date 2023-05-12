@@ -254,6 +254,37 @@ h2 {
 }
 
 /****** footer ******/
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #353535;
+  padding: 22px 0 22px 25px;
+}
+.footer-section__title {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer-section__nav__links {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.footer-section .link {
+  color: white;
+  font-weight: 300;
+}
+.footer-section .link .fa-solid {
+  font-size: 13px;
+  width: 11px;
+}
+.footer-section .link--bold {
+  display: flex;
+  gap: 11px;
+  font-weight: 400;
+}
+
 /****** location ******/
 .location {
   display: flex;

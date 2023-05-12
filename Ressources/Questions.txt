@@ -1,2 +1,13 @@
 - FA links ?
 - class for components ( like step)
+
+
+    <header>
+        <div class="header">
+        <h1 class="logo header__title">ohmyfood</h1>
+        </div>
+    </header>   ??????????
+
+
+
+    - reset.scss:53
