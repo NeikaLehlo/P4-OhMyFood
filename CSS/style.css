@@ -95,8 +95,15 @@ a:active {
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.body__container {
   width: 100%;
-  max-width: 767px;
+  max-width: 1440px;
+  box-sizing: border-box;
 }
 
 h2 {
@@ -330,6 +337,12 @@ h2 {
   justify-content: center;
   margin: 50px 20px;
 }
+@media (min-width: 768px) {
+  .process__section {
+    margin: 50px 12.5%;
+    justify-content: start;
+  }
+}
 .process__section__box {
   display: flex;
   flex-direction: column;
@@ -338,11 +351,27 @@ h2 {
   width: 100%;
   max-width: 335px;
 }
+@media (min-width: 768px) {
+  .process__section__box {
+    max-width: none;
+  }
+}
 .process__section__box__steps {
   display: flex;
   flex-direction: column;
   gap: 25px;
   margin-left: 10px;
+}
+@media (min-width: 768px) {
+  .process__section__box__steps {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  .process__section__box__steps .step {
+    width: 335px;
+  }
 }
 
 /****** restaurants ******/

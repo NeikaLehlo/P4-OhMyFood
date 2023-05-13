@@ -1,10 +1,18 @@
 *{
     font-family: $font-main;
 }
+
 body{
-    width: 100%;
-    max-width: 767px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
 }
+
+.body__container{
+        width: 100%;
+        max-width: 1440px;
+        box-sizing: border-box;
+    }
 
 h2{
     font-size: 24px;

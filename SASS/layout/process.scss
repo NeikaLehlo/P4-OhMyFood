@@ -2,6 +2,12 @@
     display: flex;
     justify-content: center;
     margin : 50px 20px;
+    
+    
+    @media (min-width: 768px){
+        margin : 50px 12.5%;
+        justify-content: start;
+    }
 
     &__box{
         display: flex;
@@ -10,12 +16,28 @@
         gap: 25px;
         width: 100%;
         max-width:335px;
+
+        @media (min-width: 768px){
+            max-width: none;
+        }
+        
     
         &__steps {
             display: flex;
             flex-direction: column;
             gap: 25px;
             margin-left: 10px;
+
+            @media (min-width: 768px){
+                flex-direction: row;
+                justify-content: space-between;
+
+                .step{
+                    @media (min-width: 1024px){
+                        width:335px;
+                    }
+                }
+            }
         }
     }
 }
