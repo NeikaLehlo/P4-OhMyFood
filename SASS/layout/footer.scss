@@ -5,6 +5,14 @@
     background-color: $color-grey-dark;
     padding: 22px 0 22px 25px;
 
+    @media (min-width: 768px){
+        flex-direction: row-reverse;
+        align-items: end;
+        height: 114px;
+        padding: 30px 60px;
+        gap: 100px;
+    }
+
     &__title{
         color: $color-contrast;
         font-size: 18px;
@@ -17,6 +25,10 @@
             flex-direction: column;
             gap: 7px;
 
+            @media (min-width: 768px){
+                flex-direction: row;
+                gap: 25px;
+            }
         }
     }
 
