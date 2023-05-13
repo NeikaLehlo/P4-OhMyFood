@@ -1,7 +1,7 @@
 .process__section {
     display: flex;
     justify-content: center;
-    margin : 50px 20px;
+    padding : 50px 20px;
     
     
     @media (min-width: 768px){
@@ -12,7 +12,6 @@
     &__box{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         gap: 25px;
         width: 100%;
         max-width:335px;
@@ -20,7 +19,6 @@
         @media (min-width: 768px){
             max-width: none;
         }
-        
     
         &__steps {
             display: flex;

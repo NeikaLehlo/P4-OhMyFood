@@ -4,6 +4,11 @@
     padding : 50px 15px;
     background-color: $color-grey-light;
 
+    @media (min-width: 768px){
+        padding : 50px 12.5%;
+        justify-content: start;
+    }
+
     &__box{
         display: flex;
         flex-direction: column;
@@ -11,16 +16,28 @@
         width: 100%;
         max-width: 490px;
 
-        &__title{
-            &:focus{
-                color: red;
-            }
+        @media (min-width: 768px){
+            max-width: none;
         }
 
         &__cards{
             display: flex;
             flex-direction: column;
             gap: 25px;
+
+            @media (min-width: 768px){
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                gap: 50px;
+            }
+
+            .card{
+                @media (min-width: 768px){
+                    width: 45.5%;
+                }
+            }
         }
     }
 }

@@ -335,7 +335,7 @@ h2 {
 .process__section {
   display: flex;
   justify-content: center;
-  margin: 50px 20px;
+  padding: 50px 20px;
 }
 @media (min-width: 768px) {
   .process__section {
@@ -346,7 +346,6 @@ h2 {
 .process__section__box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 25px;
   width: 100%;
   max-width: 335px;
@@ -381,6 +380,12 @@ h2 {
   padding: 50px 15px;
   background-color: #f7f7f7;
 }
+@media (min-width: 768px) {
+  .restaurants__section {
+    padding: 50px 12.5%;
+    justify-content: start;
+  }
+}
 .restaurants__section__box {
   display: flex;
   flex-direction: column;
@@ -388,13 +393,29 @@ h2 {
   width: 100%;
   max-width: 490px;
 }
-.restaurants__section__box__title:focus {
-  color: red;
+@media (min-width: 768px) {
+  .restaurants__section__box {
+    max-width: none;
+  }
 }
 .restaurants__section__box__cards {
   display: flex;
   flex-direction: column;
   gap: 25px;
+}
+@media (min-width: 768px) {
+  .restaurants__section__box__cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .restaurants__section__box__cards .card {
+    width: 45.5%;
+  }
 }
 
 /****** PAGES ******/
