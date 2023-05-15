@@ -1,0 +1,37 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__img{
+        height: 275px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &__main{
+        display:flex;
+        flex-direction: column;
+        position: relative;
+        top:-55px;
+        gap: 42px;
+        padding: 40px 13px;
+        width: 100%;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        background-color: $color-grey-light;
+        
+
+        &__name{
+            display: flex;
+            margin: 0 28px 0 5px;
+            justify-content: space-between; 
+        }
+
+        &__cards{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+    }
+}
