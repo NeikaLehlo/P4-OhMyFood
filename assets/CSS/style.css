@@ -180,18 +180,18 @@ h2 {
 }
 
 /****** card ******/
-.card {
+.restaurant-card {
   display: flex;
   flex-direction: column;
   border-radius: 15px;
   background-color: white;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
-.card__link {
+.restaurant-card__link {
   display: block;
   position: relative;
 }
-.card__link__img {
+.restaurant-card__link__img {
   object-fit: cover;
   width: 100%;
   height: 174px;
@@ -199,10 +199,10 @@ h2 {
   border-top-right-radius: 15px;
   object-position: center bottom;
 }
-.card__link__img__center {
+.restaurant-card__link__img__center {
   object-position: 50% 60%;
 }
-.card__link__new {
+.restaurant-card__link__new {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,23 +217,23 @@ h2 {
   font-size: 14px;
   color: #008766;
 }
-.card__link__content {
+.restaurant-card__link__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 31%;
   padding: 15px 25px 15px 15px;
 }
-.card__link__content__text {
+.restaurant-card__link__content__text {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-.card__link__content__text__title {
+.restaurant-card__link__content__text__title {
   font-size: 18px;
   font-weight: 700;
 }
-.card__link__content__text__subtitle {
+.restaurant-card__link__content__text__subtitle {
   font-size: 17px;
   font-weight: 300;
 }
@@ -428,7 +428,7 @@ h2 {
   }
 }
 @media (min-width: 768px) {
-  .restaurants__section__box__cards .card {
+  .restaurants__section__box__cards .restaurant-card {
     width: 45.5%;
   }
 }

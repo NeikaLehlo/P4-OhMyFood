@@ -1,12 +1,11 @@
-- FA links ?
-- class for components ( like step)
+- FA links ?   ---> cdn
 
 
     <header>
-        <div class="header">
+        <div class="header">  ???????????????
         <h1 class="logo header__title">ohmyfood</h1>
         </div>
-    </header>   ??????????
+    </header>
 
 
 
