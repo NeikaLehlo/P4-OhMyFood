@@ -3,10 +3,11 @@
     justify-content: center;
     padding : 50px 15px;
     background-color: $color-grey-light;
+    
 
-    @media (min-width: 768px){
+    @media (min-width: 1024px){
         padding : 50px 12.5%;
-        justify-content: start;
+        justify-content: center;
     }
 
     &__box{
@@ -16,8 +17,8 @@
         width: 100%;
         max-width: 490px;
 
-        @media (min-width: 768px){
-            max-width: none;
+        @media (min-width: 1024px){
+            max-width: 1440px;
         }
 
         &__cards{
@@ -25,7 +26,7 @@
             flex-direction: column;
             gap: 25px;
 
-            @media (min-width: 768px){
+            @media (min-width: 1024px){
                 flex-direction: row;
                 flex-wrap: wrap;
                 justify-content: space-between;
@@ -34,7 +35,7 @@
             }
 
             .restaurant-card{
-                @media (min-width: 768px){
+                @media (min-width: 1024px){
                     width: 45.5%;
                 }
             }

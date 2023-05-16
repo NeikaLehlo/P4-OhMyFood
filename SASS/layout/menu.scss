@@ -15,7 +15,7 @@
         justify-content: center;
         align-items:center;
         position: relative;
-        top:-55px;
+        margin-top: -55px;
         gap: 42px;
         padding: 40px 13px;
         width: 100%;
@@ -27,9 +27,13 @@
 
         &__name{
             display: flex;
-            margin: 0 28px 0 5px;
             justify-content: space-between;
-            gap: 24px;
+            width: 100%;
+            max-width: 341px;
+
+            .like{
+                margin-right:28px;
+            }
         }
 
         &__cards{

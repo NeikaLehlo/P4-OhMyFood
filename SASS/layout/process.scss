@@ -4,9 +4,10 @@
     padding : 50px 20px;
     
     
-    @media (min-width: 768px){
+    @media (min-width: 1024px){
         margin : 50px 12.5%;
-        justify-content: start;
+        padding: 50px 0;
+        justify-content: center;
     }
 
     &__box{
@@ -16,8 +17,12 @@
         width: 100%;
         max-width:335px;
 
-        @media (min-width: 768px){
+        @media (min-width: 1024px){
             max-width: none;
+        }
+
+        @media (min-width: 1440px){
+            max-width: 1440px;
         }
     
         &__steps {
@@ -26,9 +31,10 @@
             gap: 25px;
             margin-left: 10px;
 
-            @media (min-width: 768px){
+            @media (min-width: 1024px){
                 flex-direction: row;
                 justify-content: space-between;
+                align-items: center;
 
                 .step{
                     @media (min-width: 1024px){

@@ -76,16 +76,9 @@ th {
   padding: 0;
 }
 
-a {
+a, a:visited, a:active, a:focus {
+  color: black;
   text-decoration: none;
-}
-
-a:visited {
-  color: black;
-}
-
-a:active {
-  color: black;
 }
 
 /****** variable ******/
@@ -102,7 +95,6 @@ body {
 
 .body__container {
   width: 100%;
-  max-width: 1440px;
   box-sizing: border-box;
 }
 
@@ -170,6 +162,7 @@ h2 {
   font-size: 14px;
   position: relative;
   left: -10px;
+  min-width: 24px;
 }
 .step__fa {
   color: #7e7e7e;
@@ -192,6 +185,7 @@ h2 {
   position: relative;
 }
 .restaurant-card__link__img {
+  display: block;
   object-fit: cover;
   width: 100%;
   height: 174px;
@@ -254,6 +248,14 @@ h2 {
   font-size: 16px;
   font-weight: 300;
 }
+.dishes-cards__title::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  margin-top: 4px;
+  background-color: #99e2d0;
+}
 .dishes-cards__card {
   display: flex;
   flex-direction: column;
@@ -267,6 +269,7 @@ h2 {
   border-radius: 15px;
   background-color: white;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  height: 100%;
 }
 .dishes-cards__card__dish__text {
   gap: 5px;
@@ -290,7 +293,7 @@ h2 {
 
 /****** LAYOUT ******/
 /****** header ******/
-.header {
+header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -299,12 +302,14 @@ h2 {
   position: relative;
   z-index: 1;
 }
-.header__title {
+
+.header-title {
   font-size: 30px;
   margin-top: 14px;
   margin-bottom: 5px;
 }
-.header__arrow-return {
+
+.header-return {
   display: flex;
   align-items: center;
   position: absolute;
@@ -317,7 +322,7 @@ h2 {
   width: 20px;
   height: 20px;
 }
-.header__arrow-return__fa {
+.header-return__fa {
   font-size: 20px;
 }
 
@@ -413,10 +418,11 @@ h2 {
   justify-content: center;
   padding: 50px 20px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .process__section {
     margin: 50px 12.5%;
-    justify-content: start;
+    padding: 50px 0;
+    justify-content: center;
   }
 }
 .process__section__box {
@@ -426,9 +432,14 @@ h2 {
   width: 100%;
   max-width: 335px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .process__section__box {
     max-width: none;
+  }
+}
+@media (min-width: 1440px) {
+  .process__section__box {
+    max-width: 1440px;
   }
 }
 .process__section__box__steps {
@@ -437,13 +448,14 @@ h2 {
   gap: 25px;
   margin-left: 10px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .process__section__box__steps {
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 }
-@media (min-width: 768px) and (min-width: 1024px) {
+@media (min-width: 1024px) and (min-width: 1024px) {
   .process__section__box__steps .step {
     width: 335px;
   }
@@ -456,10 +468,10 @@ h2 {
   padding: 50px 15px;
   background-color: #f7f7f7;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .restaurants__section {
     padding: 50px 12.5%;
-    justify-content: start;
+    justify-content: center;
   }
 }
 .restaurants__section__box {
@@ -469,9 +481,9 @@ h2 {
   width: 100%;
   max-width: 490px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .restaurants__section__box {
-    max-width: none;
+    max-width: 1440px;
   }
 }
 .restaurants__section__box__cards {
@@ -479,7 +491,7 @@ h2 {
   flex-direction: column;
   gap: 25px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .restaurants__section__box__cards {
     flex-direction: row;
     flex-wrap: wrap;
@@ -488,7 +500,7 @@ h2 {
     gap: 50px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .restaurants__section__box__cards .restaurant-card {
     width: 45.5%;
   }
@@ -511,7 +523,7 @@ h2 {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: -55px;
+  margin-top: -55px;
   gap: 42px;
   padding: 40px 13px;
   width: 100%;
@@ -522,9 +534,12 @@ h2 {
 }
 .menu__main__name {
   display: flex;
-  margin: 0 28px 0 5px;
   justify-content: space-between;
-  gap: 24px;
+  width: 100%;
+  max-width: 341px;
+}
+.menu__main__name .like {
+  margin-right: 28px;
 }
 .menu__main__cards {
   display: flex;
