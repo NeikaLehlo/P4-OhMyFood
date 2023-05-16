@@ -12,6 +12,8 @@
     &__main{
         display:flex;
         flex-direction: column;
+        justify-content: center;
+        align-items:center;
         position: relative;
         top:-55px;
         gap: 42px;
@@ -20,18 +22,26 @@
         border-top-left-radius: 40px;
         border-top-right-radius: 40px;
         background-color: $color-grey-light;
+        max-width: 1055px;
         
 
         &__name{
             display: flex;
             margin: 0 28px 0 5px;
-            justify-content: space-between; 
+            justify-content: space-between;
+            gap: 24px;
         }
 
         &__cards{
             display: flex;
             flex-direction: column;
             gap: 40px;
+            width: 100%;
+            max-width: 634px;
+        }
+
+        &__btn {
+            padding: 0 50px;
         }
     }
 }

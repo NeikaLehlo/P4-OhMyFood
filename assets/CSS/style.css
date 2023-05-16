@@ -247,6 +247,7 @@ h2 {
 .dishes-cards {
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap: 12px;
 }
 .dishes-cards__title {
@@ -269,13 +270,22 @@ h2 {
 }
 .dishes-cards__card__dish__text {
   gap: 5px;
+  height: 42px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .dishes-cards__card__dish__text__title {
   font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 50%;
 }
 .dishes-cards__card__dish__text__subtitle {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 50%;
 }
 
 /****** LAYOUT ******/
@@ -498,6 +508,8 @@ h2 {
 .menu__main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   top: -55px;
   gap: 42px;
@@ -506,16 +518,23 @@ h2 {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   background-color: #f7f7f7;
+  max-width: 1055px;
 }
 .menu__main__name {
   display: flex;
   margin: 0 28px 0 5px;
   justify-content: space-between;
+  gap: 24px;
 }
 .menu__main__cards {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  width: 100%;
+  max-width: 634px;
+}
+.menu__main__btn {
+  padding: 0 50px;
 }
 
 /****** PAGES ******/
