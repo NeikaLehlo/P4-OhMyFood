@@ -179,7 +179,7 @@ h2 {
   color: #9356DC;
 }
 
-/****** card ******/
+/****** restaurant-card ******/
 .restaurant-card {
   display: flex;
   flex-direction: column;
@@ -243,6 +243,41 @@ h2 {
   font-size: 25px;
 }
 
+/****** dishes-cards ******/
+.dishes-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.dishes-cards__title {
+  font-size: 16px;
+  font-weight: 300;
+}
+.dishes-cards__card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.dishes-cards__card__dish {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 12px 15px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.dishes-cards__card__dish__text {
+  gap: 5px;
+}
+.dishes-cards__card__dish__text__title {
+  font-size: 18px;
+}
+.dishes-cards__card__dish__text__subtitle {
+  font-size: 16px;
+  font-weight: 300;
+}
+
 /****** LAYOUT ******/
 /****** header ******/
 .header {
@@ -267,7 +302,12 @@ h2 {
   right: 0;
   bottom: 0;
   left: 0;
+  margin-top: 23px;
   margin-left: 23px;
+  width: 20px;
+  height: 20px;
+}
+.header__arrow-return__fa {
   font-size: 20px;
 }
 

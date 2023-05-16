@@ -21,8 +21,14 @@
         right:0;
         bottom:0;
         left:0;
+        margin-top: 23px;
         margin-left: 23px;
-        font-size: 20px;
+        width: 20px;
+        height: 20px;
+        
+        &__fa {
+            font-size: 20px;
+        }
     }
 }
    
