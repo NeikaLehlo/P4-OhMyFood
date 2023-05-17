@@ -383,6 +383,26 @@ header {
   background-color: #eaeaea;
   color: #353535;
 }
+.location__text {
+  border: none;
+  background-color: #eaeaea;
+  font-size: 16px;
+  font-weight: 500;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 130px;
+  padding: 0;
+}
+.location__text:focus {
+  outline-color: black;
+}
+
+::placeholder {
+  color: #353535;
+  opacity: 1;
+}
 
 /****** explore ******/
 .explore {

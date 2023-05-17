@@ -6,4 +6,26 @@
     gap: 17px;
     background-color: $color-grey-middle;
     color: $color-grey-dark;
+
+    &__text{
+        border: none;
+        background-color: $color-grey-middle;
+        font-size: 16px;
+        font-weight: 500;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-appearance: none;
+        appearance: none;
+        width: 130px;
+        padding: 0;
+
+        &:focus {
+            outline-color: black;
+        }
+    }
+}
+
+::placeholder {
+    color: $color-grey-dark;
+    opacity: 1;
 }
