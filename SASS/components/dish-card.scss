@@ -9,16 +9,20 @@
     position: relative;
     cursor: pointer;
 
-    :hover + .dish-card__check{
-        transform: scaleX(1);
-        min-width: 60px;
-        opacity: 1;
-    }
 
-    :hover + .dish-card__check .fa-solid{
-        width: 20px;
-        visibility:visible;
-    }
+    transition: background-color 0.3s;
+
+
+    // input[type="checkbox"]:checked + .dish-card__check{
+    //     transform: scaleX(1);
+    //     min-width: 60px;
+    //     opacity: 1;
+    // }
+
+    // input[type="checkbox"]:checked + .dish-card__check .fa-solid{
+    //     width: 20px;
+    //     visibility:visible;
+    // }
 
 
     &__content{
@@ -28,15 +32,11 @@
         padding: 12px 15px;
         width : 100%;
         overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
 
         &__text{
             gap: 10px;
             height: 42px;
             overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
 
             &__title{
                 font-size: 18px;
@@ -53,7 +53,6 @@
                 white-space: nowrap;
             }
         }
-
         
     }
 
@@ -75,9 +74,22 @@
         .fa-solid{
             width:0;
             transition: width 400ms, visibility 400ms;
-            visibility:hidden;
-            
-            
+            visibility:hidden;       
         }
     }
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]:checked + label .dish-card__check{
+    transform: scaleX(1);
+    min-width: 60px;
+    opacity: 1;
+}
+
+input[type="checkbox"]:checked + label .dish-card__check .fa-solid{
+    width: 20px;
+    visibility:visible;
 }
