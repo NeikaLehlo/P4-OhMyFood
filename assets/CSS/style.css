@@ -108,11 +108,9 @@ h2 {
 @keyframes apparition {
   0% {
     translate: 100%;
-    transform: scale(1.6, 0.8);
   }
   25% {
     translate: 5%;
-    transform: scale(1.6, 0.8);
   }
   30% {
     translate: -10px;
