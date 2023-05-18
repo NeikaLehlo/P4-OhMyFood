@@ -60,6 +60,7 @@
     &__title {
         font-size: 16px;
         font-weight: 300;
+        animation: apparition 2000ms;
         &::after{
             content: '';
             display: block;
@@ -75,10 +76,5 @@
         display: flex;
         flex-direction: column;
         gap: 12px;
-
-        
-
-       
-
     }
 }

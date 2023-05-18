@@ -103,6 +103,46 @@ h2 {
   font-weight: 700;
 }
 
+/****** base ******/
+/* menu appareance */
+@keyframes apparition {
+  0% {
+    translate: 100%;
+    transform: scale(1.6, 0.8);
+  }
+  25% {
+    translate: 5%;
+    transform: scale(1.6, 0.8);
+  }
+  30% {
+    translate: -10px;
+    transform-origin: left;
+    transform: scale(0.5, 1.2);
+  }
+  35% {
+    translate: 10px;
+    transform-origin: left;
+    transform: scale(1.1, 0.85);
+  }
+  40% {
+    translate: -5px;
+    transform-origin: left;
+    transform: scale(0.8, 1.06);
+  }
+  45% {
+    translate: 5px;
+    transform-origin: left;
+    transform: scale(1.03, 0.9);
+  }
+  50% {
+    translate: none;
+    transform-origin: left;
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scaleX(1, 1);
+  }
+}
 /****** COMPONENTS ******/
 /****** logo ******/
 .logo {
@@ -248,7 +288,8 @@ h2 {
   height: 100%;
   position: relative;
   cursor: pointer;
-  transition: background-color 0.3s;
+  width: 100%;
+  animation: apparition 2000ms;
 }
 .dish-card__content {
   display: flex;
@@ -297,17 +338,17 @@ h2 {
   visibility: hidden;
 }
 
-input[type=checkbox] {
+.checkdish {
   display: none;
 }
 
-input[type=checkbox]:checked + label .dish-card__check {
+.checkdish:checked + label .dish-card__check {
   transform: scaleX(1);
   min-width: 60px;
   opacity: 1;
 }
 
-input[type=checkbox]:checked + label .dish-card__check .fa-solid {
+.checkdish:checked + label .dish-card__check .fa-solid {
   width: 20px;
   visibility: visible;
 }
@@ -602,6 +643,7 @@ header {
 .dishes__title {
   font-size: 16px;
   font-weight: 300;
+  animation: apparition 2000ms;
 }
 .dishes__title::after {
   content: "";

@@ -1,0 +1,47 @@
+
+/* menu appareance */
+@keyframes apparition{   
+    0%{
+        translate: 100%;
+        transform: scale(1.6, 0.8);
+    }
+
+    25%{
+        translate: 5%;
+        transform: scale(1.6, 0.8);
+    }
+
+    30%{
+        translate: -10px;
+        transform-origin: left;
+        transform: scale(0.5, 1.2);
+    }
+
+    35%{
+        translate: 10px;
+        transform-origin: left;
+        transform: scale(1.1, 0.85);
+    }
+
+    40%{
+        translate: -5px;
+        transform-origin: left;
+        transform: scale(0.8, 1.06);
+    }
+
+    45%{
+        translate: 5px;
+        transform-origin: left;
+        transform: scale(1.03, 0.9);
+    }
+
+    50%{
+        translate:none;
+        transform-origin: left;
+        transform: scale(1, 1);
+    }
+    
+    100%{
+        transform: scaleX(1, 1);
+    }
+}
