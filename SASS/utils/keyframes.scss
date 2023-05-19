@@ -3,6 +3,7 @@
 @keyframes apparition{   
     0%{
         translate: 100%;
+        opacity:1;
     }
 
     25%{
@@ -41,5 +42,47 @@
 
     100%{
         transform: scaleX(1, 1);
+        opacity:1;
     }
 }
+
+
+//https://stackoverflow.com/questions/28193257/css-animation-animate-one-element-after-another
+// @keyframes load {
+//     0% {
+//       opacity: 0;
+//     }
+//     100% {
+//       opacity: 1;
+//     }
+//   }
+//   .e {
+//     width: 100%;
+//     height: 30px;
+//     opacity: 0;
+//   }
+//   .one {
+//     background: red;
+//     -webkit-animation: load 5s infinite;
+//     animation: load 5s infinite;
+//   }
+//   .two {
+//     background: green;
+//     -webkit-animation: load 5s infinite 1s;
+//     animation: load 5s infinite 1s;
+//   }
+//   .three {
+//     background: yellow;
+//     -webkit-animation: load 5s infinite 2s;
+//     animation: load 5s infinite 2s;
+//   }
+//   .four {
+//     background: pink;
+//     -webkit-animation: load 5s infinite 3s;
+//     animation: load 5s infinite 3s;
+//   }
+//   .five {
+//     background: purple;
+//     -webkit-animation: load 5s infinite 4s;
+//     animation: load 5s infinite 4s;
+//   }

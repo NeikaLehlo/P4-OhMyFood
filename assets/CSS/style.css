@@ -108,6 +108,7 @@ h2 {
 @keyframes apparition {
   0% {
     translate: 100%;
+    opacity: 1;
   }
   25% {
     translate: 5%;
@@ -139,6 +140,7 @@ h2 {
   }
   100% {
     transform: scaleX(1, 1);
+    opacity: 1;
   }
 }
 /****** COMPONENTS ******/
@@ -287,7 +289,7 @@ h2 {
   position: relative;
   cursor: pointer;
   width: 100%;
-  animation: apparition 2000ms;
+  opacity: 0;
 }
 .dish-card__content {
   display: flex;
@@ -349,6 +351,54 @@ h2 {
 .checkdish:checked + label .dish-card__check .fa-solid {
   width: 20px;
   visibility: visible;
+}
+
+.entree {
+  animation: apparition 2000ms 0.5s forwards;
+}
+
+.entree1 {
+  animation: apparition 2000ms 0.75s forwards;
+}
+
+.entree2 {
+  animation: apparition 2000ms 1s forwards;
+}
+
+.entree3 {
+  animation: apparition 2000ms 1.25s forwards;
+}
+
+.plat {
+  animation: apparition 2000ms 1.5s forwards;
+}
+
+.plat1 {
+  animation: apparition 2000ms 1.75s forwards;
+}
+
+.plat2 {
+  animation: apparition 2000ms 2s forwards;
+}
+
+.plat3 {
+  animation: apparition 2000ms 2.25s forwards;
+}
+
+.dessert {
+  animation: apparition 2000ms 2.5s forwards;
+}
+
+.dessert1 {
+  animation: apparition 2000ms 2.75s forwards;
+}
+
+.dessert2 {
+  animation: apparition 2000ms 3s forwards;
+}
+
+.dessert3 {
+  animation: apparition 2000ms 3.25s forwards;
 }
 
 /****** LAYOUT ******/
@@ -641,7 +691,7 @@ header {
 .dishes__title {
   font-size: 16px;
   font-weight: 300;
-  animation: apparition 2000ms;
+  opacity: 0;
 }
 .dishes__title::after {
   content: "";

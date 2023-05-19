@@ -60,7 +60,7 @@
     &__title {
         font-size: 16px;
         font-weight: 300;
-        animation: apparition 2000ms;
+        opacity:0;
         &::after{
             content: '';
             display: block;
