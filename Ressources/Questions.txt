@@ -1,8 +1,8 @@
 TO DO :
     ✔ FA links ?   ---> cdn
     ✔ DO the READ.ME !!!!!!!!!!
-    - Location : text area
+    ✔ Location : text area
     - like btn animation
     - loader homepage
-    - menu apparition animation
-    - animation clic selection menu.
+    ✔ menu apparition animation
+    ✔ animation clic selection menu.

@@ -66,10 +66,6 @@
     }
 }
 
-.checkdish{
-    display: none;
-}
-
 .checkdish:checked + label .dish-card__check{
     transform: scaleX(1);
     min-width: 60px;
