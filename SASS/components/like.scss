@@ -7,9 +7,24 @@
     text-align: center;
     width: 27px;
     cursor: pointer;
-    background-image: linear-gradient(#FF79DA, #9356DC);
+    background: linear-gradient(#FF79DA, #9356DC);
     background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
+    position: relative;
+    transform-origin: center;
+    transform: scale(0);
+    // transition: transform 400ms;
+    z-index:1;
+
+    &__dot{
+        font-size: 12px;
+        position: absolute;
+        display: inline-block;
+        opacity: 1;
+        z-index:-1;
+        transform: translate(10px,-20px);
+    }
 }
 
 .like-empty{
@@ -19,22 +34,130 @@
     right: 0;
     bottom: 0;
     left: 1px;
+    width: 27px;
+    height: 25px;
     cursor: pointer;
+    transform-origin: center;
+    transform: scale(1);
+    transition: transform 200ms;
+    z-index:1;
+
+    &:active{
+        transform: scale(0.8);
+    }
 }
 
 
+/******* COLOR DOT ******/
+.dot1{
+    color: $color-main;
+}
+
+.dot2{
+    color: $color-secondary;
+}
+
+.dot3{
+    color: $color-tertiary;
+}
+
+.dot4{
+    color: $color-main;
+}
+
+.dot5{
+    color: $color-secondary;
+}
+
+.dot6{
+    color: $color-tertiary;
+}
+
+.dot7{
+    color: $color-main;
+}
+
+.dot8{
+    color: $color-secondary;
+}
+
+.dot9{
+    color: $color-tertiary;
+}
+
+.dot10{
+    color: $color-main;
+}
+
+.dot11{
+    color: $color-secondary;
+}
+
+.dot12{
+    color: $color-tertiary;
+}
+
+
+
+/***** ANIMATION LIKE HEART **********/
+
 .checklike:checked + label .like{
-    animation: likestart 1s forwards;
+    animation: heart 2s forwards;
+
+    &:active{
+        transform: scale(0.8);
+    }
 }
 
 .checklike:checked + label .like-empty{
-    animation: likeend 1s forwards;
+    transform: scale(0);
+    z-index:0;
 }
 
-.checklike:not(:checked) + label .like{
-    animation: likeend 1s forwards;
+.checklike:checked + label .dot1{
+    animation: dot1 1s 1s;
 }
 
-.checklike:not(:checked) + label .like-empty{
-    animation: likestart 1s forwards;
+.checklike:checked + label .dot2{
+    animation: dot2 1s 1s ;
+}
+
+.checklike:checked + label .dot3{
+    animation: dot3 1s 1s ;
+}
+
+.checklike:checked + label .dot4{
+    animation: dot4 1s 1s ;
+}
+
+.checklike:checked + label .dot5{
+    animation: dot5 1s 1s ;
+}
+
+.checklike:checked + label .dot6{
+    animation: dot6 1s 1s ;
+}
+
+.checklike:checked + label .dot7{
+    animation: dot7 1s 1s;
+}
+
+.checklike:checked + label .dot8{
+    animation: dot8 1s 1s ;
+}
+
+.checklike:checked + label .dot9{
+    animation: dot9 1s 1s ;
+}
+
+.checklike:checked + label .dot10{
+    animation: dot10 1s 1s ;
+}
+
+.checklike:checked + label .dot11{
+    animation: dot11 1s 1s ;
+}
+
+.checklike:checked + label .dot12{
+    animation: dot12 1s 1s ;
 }

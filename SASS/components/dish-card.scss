@@ -10,7 +10,6 @@
     cursor: pointer;
     width:100%;
     opacity:0;
-    // animation: apparition 2000ms;
 
     &__content{
         display: flex;
@@ -67,7 +66,6 @@
 }
 
 .checkdish:checked + label .dish-card__check{
-    transform: scaleX(1);
     min-width: 60px;
     opacity: 1;
 }

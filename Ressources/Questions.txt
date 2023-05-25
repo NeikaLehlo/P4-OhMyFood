@@ -6,3 +6,12 @@ TO DO :
     - loader homepage
     ✔ menu apparition animation
     ✔ animation clic selection menu.
+     - W3C
+
+
+
+    SVG ?
+    keyframes start at loading
+
+    // path
+// clip path
