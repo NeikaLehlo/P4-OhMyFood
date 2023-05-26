@@ -4,6 +4,7 @@
     border-radius: 15px;
     background-color: $color-contrast;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
 
     &__link {
         display: block;
@@ -63,11 +64,17 @@
                 }
             }
 
-            &__like{
-                position: relative;
-            }
+    
 
 
         }
+    }
+    
+    &__like{
+        position: absolute;
+        width: 22px;
+        height: 21px;
+        right: 25px;
+        bottom: 33px;
     }
 }

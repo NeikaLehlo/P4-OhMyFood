@@ -111,39 +111,31 @@ input[type=checkbox] {
 /****** MENU ANIMATION ******/
 @keyframes apparition {
   0% {
-    translate: 100%;
+    transform: translate(100%);
     opacity: 1;
   }
-  25% {
-    translate: 5%;
-  }
   30% {
-    translate: -10px;
     transform-origin: left;
-    transform: scale(0.5, 1.2);
+    transform: scale(0.5, 1.2) translate(-10px);
   }
   35% {
-    translate: 10px;
     transform-origin: left;
-    transform: scale(1.1, 0.85);
+    transform: scale(1.1, 0.85) translate(10px);
   }
   40% {
-    translate: -5px;
     transform-origin: left;
-    transform: scale(0.8, 1.06);
+    transform: scale(0.8, 1.06) translate(-5px);
   }
   45% {
-    translate: 5px;
     transform-origin: left;
-    transform: scale(1.03, 0.9);
+    transform: scale(1.03, 0.9) translate(5px);
   }
   50% {
-    translate: none;
     transform-origin: left;
     transform: scale(1, 1);
   }
   100% {
-    transform: scaleX(1, 1);
+    transform: scale(1, 1);
     opacity: 1;
   }
 }
@@ -353,6 +345,7 @@ input[type=checkbox] {
   border-radius: 15px;
   background-color: white;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 .restaurant-card__link {
   display: block;
@@ -405,8 +398,12 @@ input[type=checkbox] {
   font-size: 17px;
   font-weight: 300;
 }
-.restaurant-card__link__content__like {
-  position: relative;
+.restaurant-card__like {
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  right: 25px;
+  bottom: 33px;
 }
 
 /****** like ******/
@@ -429,6 +426,7 @@ input[type=checkbox] {
   z-index: 1;
 }
 .like__dot {
+  display: block;
   font-size: 12px;
   position: absolute;
   opacity: 1;
