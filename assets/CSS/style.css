@@ -640,8 +640,12 @@ input[type=checkbox] {
   animation: apparition 2000ms 1.25s forwards;
 }
 
+.entree4 {
+  animation: apparition 2000ms 1.4s forwards;
+}
+
 .plat {
-  animation: apparition 2000ms 1.5s forwards;
+  animation: apparition 2000ms 1.6s forwards;
 }
 
 .plat1 {
