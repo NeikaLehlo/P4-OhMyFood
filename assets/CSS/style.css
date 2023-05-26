@@ -575,7 +575,8 @@ input[type=checkbox] {
   overflow: hidden;
 }
 .dish-card__content__text {
-  gap: 10px;
+  display: flex;
+  flex-direction: column;
   height: 42px;
   overflow: hidden;
 }

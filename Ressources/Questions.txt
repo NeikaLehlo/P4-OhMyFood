@@ -2,7 +2,7 @@ TO DO :
     ✔ FA links ?   ---> cdn
     ✔ DO the READ.ME !!!!!!!!!!
     ✔ Location : text area
-    - like btn animation
+    ✔ like btn animation
     - loader homepage
     ✔ menu apparition animation
     ✔ animation clic selection menu.
@@ -10,7 +10,7 @@ TO DO :
 
 
 
-    Why animation is not ok on mobile ?
+    HTML validator for restaurant page ?  ( span/div/h4/p in label )
 
     // path
 // clip path
