@@ -10,8 +10,7 @@ TO DO :
 
 
 
-    SVG ?
-    keyframes start at loading
+    Why animation is not ok on mobile ?
 
     // path
 // clip path

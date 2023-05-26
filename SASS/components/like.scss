@@ -14,16 +14,14 @@
     position: relative;
     transform-origin: center;
     transform: scale(0);
-    // transition: transform 400ms;
     z-index:1;
 
     &__dot{
         font-size: 12px;
         position: absolute;
-        display: inline-block;
         opacity: 1;
         z-index:-1;
-        transform: translate(10px,-20px);
+        transform: translate(10px,-20px) scale(1);
     }
 }
 
@@ -47,59 +45,59 @@
     }
 }
 
-
 /******* COLOR DOT ******/
-.dot1{
-    color: $color-main;
+
+.dot{
+    &1{
+        color: $color-main;
+    }
+
+    &2{
+        color: $color-secondary;
+    }
+
+    &3{
+        color: $color-tertiary;
+    }
+
+    &4{
+        color: $color-main;
+    }
+
+    &5{
+        color: $color-secondary;
+    }
+
+    &6{
+        color: $color-tertiary;
+    }
+
+    &7{
+        color: $color-main;
+    }
+    
+    &8{
+        color: $color-secondary;
+    }
+    
+    &9{
+        color: $color-tertiary;
+    }
+    
+    &10{
+        color: $color-main;
+    }
+    
+    &11{
+        color: $color-secondary;
+    }
+    
+    &12{
+        color: $color-tertiary;
+    }
 }
 
-.dot2{
-    color: $color-secondary;
-}
-
-.dot3{
-    color: $color-tertiary;
-}
-
-.dot4{
-    color: $color-main;
-}
-
-.dot5{
-    color: $color-secondary;
-}
-
-.dot6{
-    color: $color-tertiary;
-}
-
-.dot7{
-    color: $color-main;
-}
-
-.dot8{
-    color: $color-secondary;
-}
-
-.dot9{
-    color: $color-tertiary;
-}
-
-.dot10{
-    color: $color-main;
-}
-
-.dot11{
-    color: $color-secondary;
-}
-
-.dot12{
-    color: $color-tertiary;
-}
-
-
-
-/***** ANIMATION LIKE HEART **********/
+/***** ANIMATION **********/
 
 .checklike:checked + label .like{
     animation: heart 2s forwards;
