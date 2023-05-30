@@ -988,5 +988,205 @@ header {
 /****** PAGES ******/
 /****** home ******/
 /****** restaurant ******/
+/****** restaurant ******/
+.loader *, .loader ::before, .loader ::after {
+  content: "";
+  position: absolute;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
+.loader__box {
+  width: 375px;
+  height: 600px;
+  overflow: hidden;
+  background-color: #99e2d0;
+}
+.loader__title {
+  font-family: "Shrikhand", cursive;
+  top: 50px;
+  left: 119px;
+}
+
+.flag {
+  top: 70px;
+  left: 225px;
+  width: 60px;
+  height: 30px;
+  transform: rotate(-20deg);
+  background: white;
+  border-left: 20px solid blue;
+  border-right: 20px solid red;
+  border-radius: 2px;
+}
+.flag__subtitle {
+  left: -19px;
+  font-size: 25px;
+  color: #9356DC;
+}
+
+.table {
+  top: 150px;
+  left: 137.5px;
+  height: 30px;
+  width: 100px;
+  background-color: #802b00;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  z-index: 3;
+}
+.table:before {
+  left: -5px;
+  width: 0px;
+  height: 0px;
+  border-left: 5px solid transparent;
+  border-bottom: 30px solid #802b00;
+  border-bottom-left-radius: 2px;
+}
+.table:after {
+  left: 100px;
+  width: 0px;
+  height: 0px;
+  border-right: 5px solid transparent;
+  border-bottom: 30px solid #802b00;
+  border-bottom-right-radius: 2px;
+}
+.table__leg-top-left {
+  top: 180px;
+  left: 137.5px;
+  width: 7px;
+  height: 60px;
+  background: linear-gradient(180deg, #662200, 30%, #802b00);
+  z-index: 2;
+}
+.table__leg-top-left:before {
+  left: -1px;
+  width: 0px;
+  height: 0px;
+  border-left: 1px solid transparent;
+  border-top: 60px solid #662200;
+}
+.table__leg-top-left:after {
+  right: -1px;
+  width: 0px;
+  height: 0px;
+  border-right: 1px solid transparent;
+  border-top: 60px solid #662200;
+}
+.table__leg-top-right {
+  top: 180px;
+  left: 230.5px;
+  width: 7px;
+  height: 60px;
+  background: linear-gradient(180deg, #662200, 30%, #802b00);
+  z-index: 2;
+}
+.table__leg-top-right:before {
+  left: -1px;
+  width: 0px;
+  height: 0px;
+  border-left: 1px solid transparent;
+  border-top: 60px solid #662200;
+}
+.table__leg-top-right:after {
+  right: -1px;
+  width: 0px;
+  height: 0px;
+  border-right: 1px solid transparent;
+  border-top: 60px solid #662200;
+}
+.table__leg-bottom-left {
+  top: 153px;
+  left: 142.5px;
+  width: 7px;
+  height: 60px;
+  background: linear-gradient(180deg, #662200, 30%, #802b00);
+  z-index: 1;
+}
+.table__leg-bottom-left:before {
+  left: -1px;
+  width: 0px;
+  height: 0px;
+  border-left: 1px solid transparent;
+  border-top: 60px solid #662200;
+}
+.table__leg-bottom-left:after {
+  right: -1px;
+  width: 0px;
+  height: 0px;
+  border-right: 1px solid transparent;
+  border-top: 60px solid #662200;
+}
+.table__leg-bottom-right {
+  top: 153px;
+  left: 225.5px;
+  width: 7px;
+  height: 60px;
+  background: linear-gradient(180deg, #662200, 30%, #802b00);
+}
+.table__leg-bottom-right:before {
+  left: -1px;
+  width: 0px;
+  height: 0px;
+  border-left: 1px solid transparent;
+  border-top: 60px solid #662200;
+}
+.table__leg-bottom-right:after {
+  right: -1px;
+  width: 0px;
+  height: 0px;
+  border-right: 1px solid transparent;
+  border-top: 60px solid #662200;
+}
+
+.tablecloth-top {
+  top: 150px;
+  left: 137.5px;
+  height: 30px;
+  width: 100px;
+  background: linear-gradient(98deg, #9356DC 15px, #FF79DA 15px, #FF79DA 20px, #9356DC 20px);
+  z-index: 3;
+}
+.tablecloth-top:before {
+  left: -5px;
+  width: 0px;
+  height: 0px;
+  border-left: 5px solid transparent;
+  border-bottom: 30px solid #9356DC;
+}
+.tablecloth-top:after {
+  left: 100px;
+  width: 0px;
+  height: 0px;
+  border-right: 5px solid transparent;
+  border-bottom: 30px solid #9356DC;
+}
+
+.tablecloth-border {
+  top: 180px;
+  left: 132.5px;
+  height: 15px;
+  width: 110px;
+  background: linear-gradient(90deg, #8541d8, 16px, #FF79DA 16px, #FF79DA 21px, #8541d8 21px);
+  z-index: 3;
+}
+.tablecloth-border:before {
+  left: -5px;
+  width: 0px;
+  height: 0px;
+  border-left: 5px solid transparent;
+  border-bottom: 15px solid hsl(267, 66%, 53%);
+  border-bottom-left-radius: 2px;
+}
+.tablecloth-border:after {
+  left: 110px;
+  width: 0px;
+  height: 0px;
+  border-right: 5px solid transparent;
+  border-bottom: 15px solid hsl(267, 66%, 53%);
+  border-bottom-right-radius: 2px;
+}
 
 /*# sourceMappingURL=style.css.map */
