@@ -8,6 +8,7 @@ TO DO :
     ✔ animation clic selection menu.
      - W3C
      - $color-new-background outdated
+     - compress pictures.
 
 
 
