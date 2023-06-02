@@ -994,10 +994,6 @@ header {
   position: absolute;
 }
 
-body {
-  background-color: #008766;
-}
-
 .loader {
   display: flex;
   justify-content: center;
@@ -1318,28 +1314,28 @@ body {
   left: 211px;
   height: 10px;
   width: 3px;
-  background: linear-gradient(90deg, rgb(238, 254, 255) 5%, rgba(226, 251, 252, 0.7119048303) 50%, rgb(238, 254, 255) 95%);
+  background: linear-gradient(90deg, rgba(238, 254, 255, 0.7) 5%, rgba(226, 251, 252, 0.3) 50%, rgba(238, 254, 255, 0.7) 95%);
 }
 .glass-wine__leg1:before {
   left: -2px;
   width: 0px;
   height: 0px;
   border-left: 2px solid transparent;
-  border-top: 5px solid rgb(238, 254, 255);
+  border-top: 5px solid rgba(238, 254, 255, 0.7);
 }
 .glass-wine__leg1:after {
   left: 3px;
   width: 0px;
   height: 0px;
   border-right: 2px solid transparent;
-  border-top: 5px solid rgb(238, 254, 255);
+  border-top: 5px solid rgba(238, 254, 255, 0.7);
 }
 .glass-wine__leg2 {
   top: 147.5px;
   left: 211px;
   height: 10px;
   width: 3px;
-  background: linear-gradient(90deg, rgb(238, 254, 255) 5%, rgba(226, 251, 252, 0.7119048303) 50%, rgb(238, 254, 255) 95%);
+  background: linear-gradient(90deg, rgba(238, 254, 255, 0.7) 5%, rgba(226, 251, 252, 0.3) 50%, rgba(238, 254, 255, 0.7) 95%);
 }
 .glass-wine__leg2:before {
   top: 7px;
@@ -1358,16 +1354,16 @@ body {
   border-bottom: 3px solid rgb(238, 254, 255);
 }
 .glass-wine__header {
-  top: 114px;
+  top: 121px;
   left: 201px;
-  height: 25px;
+  height: 18px;
   width: 23px;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   background: radial-gradient(ellipse, rgba(235, 253, 254, 0.7) 1%, rgba(226, 251, 252, 0) 20%, rgba(226, 251, 252, 0) 50%, rgba(238, 254, 255, 0.7) 78%);
 }
 .glass-wine__header__top {
-  top: 109px;
+  top: 116px;
   left: 201px;
   height: 5px;
   width: 23px;
@@ -1375,16 +1371,16 @@ body {
   background: radial-gradient(ellipse, rgba(226, 251, 252, 0.25) 50%, rgba(238, 254, 255, 0.7) 78%);
 }
 .glass-wine__wine {
-  top: 113px;
+  top: 118.5px;
   left: 201.5px;
-  height: 25px;
+  height: 20px;
   width: 22px;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   background: linear-gradient(0deg, rgba(153, 0, 51, 0.65) 50%, rgba(238, 254, 255, 0) 50%);
 }
 .glass-wine__wine__top {
-  top: 120.5px;
+  top: 123.5px;
   left: 201.5px;
   height: 5px;
   width: 22px;
