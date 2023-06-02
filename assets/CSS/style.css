@@ -994,6 +994,10 @@ header {
   position: absolute;
 }
 
+body {
+  background-color: #008766;
+}
+
 .loader {
   display: flex;
   justify-content: center;
@@ -1244,7 +1248,7 @@ header {
   left: 65px;
   height: 15px;
   width: 90px;
-  border-radius: 50%;
+  border-radius: 45%;
   background: rgb(237, 165, 71);
   z-index: 4;
   transform: rotate(-35deg);
@@ -1386,6 +1390,31 @@ header {
   width: 22px;
   border-radius: 50% 50% 0% 0%;
   background: radial-gradient(circle, rgba(179, 0, 59, 0.65) 50%, rgba(153, 0, 51, 0.65) 80%);
+}
+
+.menu-loader {
+  top: 155px;
+  left: 250px;
+  height: 50px;
+  width: 30px;
+  background: #3e0002;
+  z-index: 4;
+  transform: rotate(-4deg);
+}
+.menu-loader:after {
+  top: 50px;
+  width: 0px;
+  height: 0px;
+  border-left: 28px solid transparent;
+  border-right: 2px solid transparent;
+  border-top: 1px solid rgb(238, 254, 255);
+}
+.menu-loader__text {
+  left: 1.5px;
+  color: #FF79DA;
+  font-family: "Shrikhand", cursive;
+  font-size: 9px;
+  border-bottom: 1px solid #99e2d0;
 }
 
 /*# sourceMappingURL=style.css.map */
