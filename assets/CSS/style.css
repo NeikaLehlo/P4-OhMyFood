@@ -1041,211 +1041,205 @@ header {
   color: #9356DC;
 }
 
-.table {
-  transform: scale(1.5);
-  left: -92px;
-}
 .table__plateau {
-  top: 150px;
-  left: 87.5px;
-  height: 60px;
-  width: 200px;
+  top: 49.5px;
+  left: 37.5px;
+  height: 90px;
+  width: 300px;
   background-color: #802b00;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   z-index: 3;
 }
 .table__plateau:before {
-  top: 4px;
-  left: -10px;
+  top: 6px;
+  left: -15px;
   width: 0px;
   height: 0px;
-  border-left: 10px solid transparent;
-  border-bottom: 56px solid #802b00;
-  border-bottom-left-radius: 4px;
+  border-left: 15px solid transparent;
+  border-bottom: 84px solid #802b00;
+  border-bottom-left-radius: 8px;
 }
 .table__plateau:after {
-  top: 4px;
-  left: 200px;
+  top: 6px;
+  left: 300px;
   width: 0px;
   height: 0px;
-  border-right: 10px solid transparent;
-  border-bottom: 56px solid #802b00;
-  border-bottom-right-radius: 4px;
+  border-right: 15px solid transparent;
+  border-bottom: 84px solid #802b00;
+  border-bottom-right-radius: 8px;
 }
 .table__leg-top-left {
-  top: 210px;
-  left: 89.5px;
-  width: 14px;
-  height: 120px;
+  top: 139.5px;
+  left: 40.5px;
+  width: 21px;
+  height: 180px;
   background: linear-gradient(180deg, #662200, 30%, #802b00);
   z-index: 2;
 }
 .table__leg-top-left:before {
-  left: -2px;
+  left: -3px;
   width: 0px;
   height: 0px;
-  border-left: 2px solid transparent;
-  border-top: 120px solid #662200;
+  border-left: 3px solid transparent;
+  border-top: 180px solid #662200;
 }
 .table__leg-top-left:after {
-  right: -2px;
+  right: -3px;
   width: 0px;
   height: 0px;
-  border-right: 2px solid transparent;
-  border-top: 120px solid #662200;
+  border-right: 3px solid transparent;
+  border-top: 180px solid #662200;
 }
 .table__leg-top-right {
-  top: 210px;
-  left: 269.5px;
-  width: 14px;
-  height: 120px;
+  top: 139.5px;
+  left: 313.5px;
+  width: 21px;
+  height: 180px;
   background: linear-gradient(180deg, #662200, 30%, #802b00);
   z-index: 2;
 }
 .table__leg-top-right:before {
-  left: -2px;
+  left: -3px;
   width: 0px;
   height: 0px;
-  border-left: 2px solid transparent;
-  border-top: 120px solid #662200;
+  border-left: 3px solid transparent;
+  border-top: 180px solid #662200;
 }
 .table__leg-top-right:after {
-  right: -2px;
+  right: -3px;
   width: 0px;
   height: 0px;
-  border-right: 2px solid transparent;
-  border-top: 120px solid #662200;
+  border-right: 3px solid transparent;
+  border-top: 180px solid #662200;
 }
 .table__leg-bottom-left {
-  top: 150px;
-  left: 99.5px;
-  width: 14px;
-  height: 120px;
+  top: 52.5px;
+  left: 52.5px;
+  width: 21px;
+  height: 180px;
   background: linear-gradient(180deg, #662200, 30%, #802b00);
-  z-index: 1;
 }
 .table__leg-bottom-left:before {
-  left: -2px;
+  left: -3px;
   width: 0px;
   height: 0px;
-  border-left: 2px solid transparent;
-  border-top: 120px solid #662200;
+  border-left: 3px solid transparent;
+  border-top: 180px solid #662200;
 }
 .table__leg-bottom-left:after {
-  right: -2px;
+  right: -3px;
   width: 0px;
   height: 0px;
-  border-right: 2px solid transparent;
-  border-top: 120px solid #662200;
+  border-right: 3px solid transparent;
+  border-top: 180px solid #662200;
 }
 .table__leg-bottom-right {
-  top: 150px;
-  left: 259.5px;
-  width: 14px;
-  height: 120px;
+  top: 52.5px;
+  left: 301.5px;
+  width: 21px;
+  height: 180px;
   background: linear-gradient(180deg, #662200, 30%, #802b00);
 }
 .table__leg-bottom-right:before {
-  left: -2px;
+  left: -3px;
   width: 0px;
   height: 0px;
-  border-left: 2px solid transparent;
-  border-top: 120px solid #662200;
+  border-left: 3px solid transparent;
+  border-top: 180px solid #662200;
 }
 .table__leg-bottom-right:after {
-  right: -2px;
+  right: -3px;
   width: 0px;
   height: 0px;
-  border-right: 2px solid transparent;
-  border-top: 120px solid #662200;
+  border-right: 3px solid transparent;
+  border-top: 180px solid #662200;
 }
 .table__cloth-top {
-  top: 150px;
-  left: 87.5px;
-  height: 60px;
-  width: 200px;
+  top: 49.5px;
+  left: 37.5px;
+  height: 90px;
+  width: 300px;
   background: linear-gradient(98deg, #9356DC 15px, #FF79DA 15px, #FF79DA 20px, #9356DC 20px);
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   z-index: 3;
 }
 .table__cloth-top:before {
-  top: 4px;
-  left: -10px;
+  top: 6px;
+  left: -15px;
   width: 0px;
   height: 0px;
-  border-left: 10px solid transparent;
-  border-bottom: 56px solid #9356DC;
+  border-left: 15px solid transparent;
+  border-bottom: 84px solid #9356DC;
 }
 .table__cloth-top:after {
-  top: 4px;
-  left: 200px;
+  top: 6px;
+  left: 300px;
   width: 0px;
   height: 0px;
-  border-right: 10px solid transparent;
-  border-bottom: 56px solid #9356DC;
+  border-right: 15px solid transparent;
+  border-bottom: 84px solid #9356DC;
 }
 .table__cloth-border {
-  top: 210px;
-  left: 77.5px;
-  height: 30px;
-  width: 220px;
-  background: linear-gradient(90deg, #8541d8 17px, #FF79DA 17px, #FF79DA 22px, #8541d8 22px);
+  top: 139.5px;
+  left: 22.5px;
+  height: 45px;
+  width: 330px;
+  background: linear-gradient(90deg, #8541d8 18px, #FF79DA 18px, #FF79DA 23px, #8541d8 23px);
   z-index: 3;
 }
 .table__cloth-border:before {
-  left: -10px;
+  left: -15px;
   width: 0px;
   height: 0px;
-  border-left: 10px solid transparent;
-  border-bottom: 30px solid hsl(267, 66%, 53%);
-  border-bottom-left-radius: 2px;
+  border-left: 15px solid transparent;
+  border-bottom: 45px solid hsl(267, 66%, 53%);
+  border-bottom-left-radius: 3px;
 }
 .table__cloth-border:after {
-  left: 220px;
+  left: 330px;
   width: 0px;
   height: 0px;
-  border-right: 10px solid transparent;
-  border-bottom: 30px solid hsl(267, 66%, 53%);
-  border-bottom-right-radius: 2px;
+  border-right: 15px solid transparent;
+  border-bottom: 45px solid hsl(267, 66%, 53%);
+  border-bottom-right-radius: 3px;
 }
 
 .plate {
-  top: 250px;
-  left: 152.5px;
-  height: 45px;
-  width: 70px;
+  top: 65px;
+  left: 135px;
+  height: 67px;
+  width: 105px;
   border-radius: 50%;
   background: radial-gradient(ellipse, #e9fcfc 45%, white 45%, white 60%, #99e2d0 60%, #99e2d0 65%, white 65%);
   z-index: 4;
-  transform: scale(1.5);
 }
 
 .fork {
-  top: 253px;
-  left: 109px;
-  height: 40px;
-  width: 30px;
+  top: 70px;
+  left: 100px;
+  height: 67.5px;
+  width: 45px;
   background: linear-gradient(180deg, rgb(176, 178, 179) 0%, rgb(221, 223, 223) 35%, rgb(221, 223, 223) 40%, rgb(198, 202, 203) 45%, rgb(198, 202, 203) 50%, rgb(221, 223, 223) 52%, rgb(176, 178, 179) 100%);
   clip-path: polygon(35% 0%, 38% 5%, 38% 25%, 40% 28%, 43% 25%, 43% 5%, 45% 0%, 48% 5%, 48% 25%, 50% 28%, 53% 25%, 53% 5%, 55% 0%, 58% 5%, 58% 25%, 60% 28%, 63% 25%, 63% 5%, 65% 0%, 68% 5%, 68% 30%, 65% 35%, 55% 45%, 58% 98%, 50% 100%, 43% 98%, 45% 45%, 35% 35%, 33% 30%, 33% 5%);
-  transform: rotate(2deg) scale(1.5);
+  transform: rotate(2deg);
   z-index: 4;
 }
 
 .knife {
-  top: 253px;
-  left: 235px;
-  height: 40px;
-  width: 30px;
+  top: 70px;
+  left: 228px;
+  height: 67.5px;
+  width: 45px;
   background: linear-gradient(180deg, rgb(176, 178, 179) 0%, rgb(221, 223, 223) 35%, rgb(221, 223, 223) 40%, rgb(198, 202, 203) 45%, rgb(198, 202, 203) 50%, rgb(221, 223, 223) 52%, rgb(176, 178, 179) 100%);
   clip-path: polygon(50% 0, 55% 5%, 55% 45%, 58% 48%, 55% 50%, 58% 98%, 50% 100%, 43% 98%, 45% 50%, 43% 48%, 45% 45%, 40% 25%, 43% 10%);
-  transform: rotate(-2deg) scale(1.5);
+  transform: rotate(-2deg);
   z-index: 4;
 }
 
 .bread {
-  top: 240px;
+  top: 60px;
   left: 35px;
   height: 15px;
   width: 90px;
@@ -1304,120 +1298,117 @@ header {
 
 .glass-wine {
   z-index: 3;
-  transform: scale(1.5);
-  left: -90px;
 }
 .glass-wine__footer {
-  top: 155px;
-  left: 205px;
-  height: 5px;
-  width: 15px;
+  top: 60.5px;
+  left: 207px;
+  height: 7.55px;
+  width: 22.5px;
   border-radius: 50%;
   background: radial-gradient(ellipse, rgb(235, 253, 254) 5%, rgba(226, 251, 252, 0.5) 50%, rgb(238, 254, 255) 78%);
   z-index: 4;
 }
 .glass-wine__leg1 {
-  top: 137.5px;
-  left: 211px;
-  height: 10px;
-  width: 3px;
+  top: 33.5px;
+  left: 216px;
+  height: 15px;
+  width: 4.5px;
   background: linear-gradient(90deg, rgba(238, 254, 255, 0.7) 5%, rgba(226, 251, 252, 0.3) 50%, rgba(238, 254, 255, 0.7) 95%);
 }
 .glass-wine__leg1:before {
-  left: -2px;
+  left: -3px;
   width: 0px;
   height: 0px;
-  border-left: 2px solid transparent;
-  border-top: 5px solid rgba(238, 254, 255, 0.7);
+  border-left: 3px solid transparent;
+  border-top: 7.5px solid rgba(238, 254, 255, 0.7);
 }
 .glass-wine__leg1:after {
-  left: 3px;
+  left: 4.5px;
   width: 0px;
   height: 0px;
-  border-right: 2px solid transparent;
-  border-top: 5px solid rgba(238, 254, 255, 0.7);
+  border-right: 3px solid transparent;
+  border-top: 7.5px solid rgba(238, 254, 255, 0.7);
 }
 .glass-wine__leg2 {
-  top: 147.5px;
-  left: 211px;
-  height: 10px;
-  width: 3px;
+  top: 48.5px;
+  left: 216px;
+  height: 15px;
+  width: 4.5px;
   background: linear-gradient(90deg, rgba(238, 254, 255, 0.7) 5%, rgba(226, 251, 252, 0.3) 50%, rgba(238, 254, 255, 0.7) 95%);
 }
 .glass-wine__leg2:before {
-  top: 7px;
-  left: -2px;
+  top: 10.75px;
+  left: -3px;
   width: 0px;
   height: 0px;
-  border-left: 2px solid transparent;
-  border-bottom: 3px solid rgb(238, 254, 255);
+  border-left: 3px solid transparent;
+  border-bottom: 4.5px solid rgb(238, 254, 255);
 }
 .glass-wine__leg2:after {
-  top: 7px;
-  left: 3px;
+  top: 10.75px;
+  left: 4.5px;
   width: 0px;
   height: 0px;
-  border-right: 2px solid transparent;
-  border-bottom: 3px solid rgb(238, 254, 255);
+  border-right: 3px solid transparent;
+  border-bottom: 4.5px solid rgb(238, 254, 255);
 }
 .glass-wine__header {
-  top: 121px;
+  top: 7.5px;
   left: 201px;
-  height: 18px;
-  width: 23px;
+  height: 27px;
+  width: 34.5px;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   background: radial-gradient(ellipse, rgba(235, 253, 254, 0.7) 1%, rgba(226, 251, 252, 0) 20%, rgba(226, 251, 252, 0) 50%, rgba(238, 254, 255, 0.7) 78%);
 }
 .glass-wine__header__top {
-  top: 116px;
   left: 201px;
-  height: 5px;
-  width: 23px;
+  height: 7.5px;
+  width: 34.5px;
   border-radius: 50% 50% 0% 0%;
   background: radial-gradient(ellipse, rgba(226, 251, 252, 0.25) 50%, rgba(238, 254, 255, 0.7) 78%);
 }
 .glass-wine__wine {
-  top: 118.5px;
+  top: 3px;
   left: 201.5px;
-  height: 20px;
-  width: 22px;
+  height: 30px;
+  width: 33px;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   background: linear-gradient(0deg, rgba(153, 0, 51, 0.65) 50%, rgba(238, 254, 255, 0) 50%);
 }
 .glass-wine__wine__top {
-  top: 123.5px;
+  top: 10.5px;
   left: 201.5px;
-  height: 5px;
-  width: 22px;
+  height: 7.5px;
+  width: 33px;
   border-radius: 50% 50% 0% 0%;
   background: radial-gradient(circle, rgba(179, 0, 59, 0.65) 50%, rgba(153, 0, 51, 0.65) 80%);
 }
 
 .menu-loader {
-  top: 245px;
-  left: 290px;
-  height: 50px;
-  width: 30px;
+  top: 60px;
+  left: 275px;
+  height: 70px;
+  width: 45px;
   background: #3e0002;
   z-index: 4;
-  transform: rotate(-4deg) scale(1.5);
+  transform: rotate(-4deg);
 }
 .menu-loader:after {
-  top: 50px;
+  top: 70px;
   width: 0px;
   height: 0px;
-  border-left: 28px solid transparent;
-  border-right: 2px solid transparent;
-  border-top: 1px solid rgb(238, 254, 255);
+  border-left: 42px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 1.5px solid rgb(238, 254, 255);
 }
 .menu-loader__text {
-  left: 1.5px;
+  left: 2.25px;
   color: #FF79DA;
   font-family: "Shrikhand", cursive;
-  font-size: 9px;
-  border-bottom: 1px solid #99e2d0;
+  font-size: 13.5px;
+  border-bottom: 1.5px solid #99e2d0;
 }
 
 /*# sourceMappingURL=style.css.map */
