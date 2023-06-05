@@ -57,6 +57,8 @@
 }
 
 .table{
+    transform: scale(1.5);
+    left: -92px;
     &__plateau{
         top:150px;
         left:87.5px;
@@ -249,46 +251,47 @@
 }
 
 .plate{
-    top: 160px;
+    top: 250px;
     left: 152.5px;
     height: 45px;
     width: 70px;
     border-radius: 50%;
     background: radial-gradient(ellipse,#e9fcfc 45%, white 45%, white 60%, $color-tertiary 60%, $color-tertiary 65%, white 65%,);
     z-index: 4;
+    transform: scale(1.5);
 }
 
 .fork {
-    top: 163px;
-    left: 131px;
+    top: 253px;
+    left: 109px;
     height : 40px;
     width: 30px;
     background: linear-gradient(180deg, rgba(176,178,179,1) 0%, rgba(221,223,223,1) 35%, rgba(221,223,223,1) 40%, rgba(198,202,203,1) 45%, rgba(198,202,203,1) 50%, rgba(221,223,223,1) 52%, rgba(176,178,179,1) 100%);
     clip-path: polygon(35% 0%, 38% 5%, 38% 25%, 40% 28%, 43% 25%, 43% 5%, 45% 0%, 48% 5%, 48% 25%, 50% 28%, 53% 25%, 53% 5%, 55% 0%, 58% 5%, 58% 25%, 60% 28%, 63% 25%, 63% 5%, 65% 0%, 68% 5%, 68% 30%, 65% 35%, 55% 45%, 58% 98%, 50% 100%, 43% 98%, 45% 45%, 35% 35%, 33% 30%, 33% 5%);
-    transform: rotate(2deg);
+    transform: rotate(2deg) scale(1.5);
     z-index : 4;
 }
 
 .knife {
-    top: 163px;
-    left: 213px;
+    top: 253px;
+    left: 235px;
     height : 40px;
     width: 30px;
     background: linear-gradient(180deg, rgba(176,178,179,1) 0%, rgba(221,223,223,1) 35%, rgba(221,223,223,1) 40%, rgba(198,202,203,1) 45%, rgba(198,202,203,1) 50%, rgba(221,223,223,1) 52%, rgba(176,178,179,1) 100%);
     clip-path: polygon(50% 0, 55% 5%, 55% 45%, 58% 48%, 55% 50%, 58% 98%, 50% 100%, 43% 98%, 45% 50%, 43% 48%, 45% 45%, 40% 25%, 43% 10%);
-    transform: rotate(-2deg);
+    transform: rotate(-2deg) scale(1.5);
     z-index : 4;
 }
 
 .bread {
-    top: 160px;
-    left: 65px;
+    top: 240px;
+    left: 35px;
     height : 15px;
     width: 90px;
     border-radius: 45%;
     background: rgba(237,165,71,1);
     z-index:4;
-    transform: rotate(-35deg);
+    transform: rotate(-35deg) scale(2);
 
     &__skin{
         background: rgba(196,113,31,1);
@@ -348,6 +351,8 @@
 
 .glass-wine{
     z-index:3;
+    transform: scale(1.5);
+    left : -90px;
     &__footer{
         top: 155px ;
         left: 205px;
@@ -448,13 +453,13 @@
 }
 
 .menu-loader{
-    top: 155px;
-    left: 250px ;
+    top: 245px;
+    left: 290px ;
     height: 50px;
     width: 30px;
     background: #3e0002;
     z-index:4;
-    transform: rotate(-4deg);
+    transform: rotate(-4deg) scale(1.5);
 
     &:after{
         top: 50px;
