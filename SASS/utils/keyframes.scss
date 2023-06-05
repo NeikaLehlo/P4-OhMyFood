@@ -146,3 +146,68 @@
     100%{transform: translate(15px,0) scale(0);
     }
 }
+
+
+/************* LOADER ANIMATION *******************/
+@keyframes loader{
+    0%{
+        z-index: 2;
+        opacity: 1;
+    }
+
+    99%{
+        z-index: 2;
+        opacity: 1;
+    }
+
+    100%{
+        z-index: -2;
+        opacity: 0;
+    }
+}
+
+@keyframes loaderhide{
+    0%{
+        z-index: -2;
+        opacity: 0;
+    }
+
+    99%{
+        z-index: -2;
+        opacity: 0;
+    }
+}
+
+@keyframes bread{
+    0%{ 
+        transform: translateY(-1000px) rotate(-35deg) scale(2);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(0)  rotate(-35deg) scale(2);
+        opacity:1;
+    }
+}
+
+@keyframes wine{
+    0%{ 
+        transform: translateY(-1000px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(0);
+        opacity:1;
+    }
+}
+
+@keyframes flag {
+    0%{
+        opacity: 1;
+        transform: scale(1000);
+    }
+
+    100%{
+        opacity: 1;
+        trnasform: scale(1);
+    }
+}

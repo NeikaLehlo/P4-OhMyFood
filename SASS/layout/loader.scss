@@ -9,6 +9,10 @@
     background-color: $color-tertiary;
     width:100%;
     height: 100vh;
+    position: absolute;
+    z-index: -2;
+    opacity:0;
+    animation: loader 4s;
 
     &__box {
         display: flex;
@@ -16,7 +20,6 @@
         justify-content: center;
         align-items: center;
         width: 375px;
-        background : $color-new-text;
 
         &__animation {
             position: relative;
@@ -45,6 +48,8 @@
         border-left: 30px solid blue;
         border-right: 30px solid red;
         border-radius: 2px;
+        opacity: 0;
+        animation: flag 500ms 1.5s forwards;
 
         &__text{
             position: relative;
@@ -287,7 +292,8 @@
     border-radius: 45%;
     background: rgba(237,165,71,1);
     z-index:4;
-    transform: rotate(-35deg) scale(2);
+    opacity:0;
+    animation: bread 200ms 1s forwards;
 
     &__skin {
         background: rgba(196,113,31,1);
@@ -347,8 +353,10 @@
 
 .glass-wine {
     z-index:3;
+    opacity:0;
+    animation: wine 200ms 1.2s forwards;
 
-    &__footer {  //ok
+    &__footer {
         top: 60.5px ;
         left: 207px;
         height: 7.55px;
@@ -358,7 +366,7 @@
         z-index:4;
     }
 
-    &__leg1 {  //ok
+    &__leg1 {
         top: 33.5px;
         left : 216px;
         height: 15px;
@@ -382,7 +390,7 @@
         }
     }
 
-    &__leg2 { //ok
+    &__leg2 {
         top: 48.5px;
         left : 216px;
         height: 15px;
@@ -408,7 +416,7 @@
         }
     }
 
-    &__header {  //ok
+    &__header {
         top: 7.5px;
         left: 201px ;
         height: 27px;
@@ -426,7 +434,7 @@
         }
     }
 
-    &__wine {   //ok
+    &__wine {
         top: 3px;
         left: 201.5px ;
         height: 30px;
@@ -472,7 +480,3 @@
         border-bottom: 1.5px solid $color-tertiary;
     }
 }
- 
-  
-
-

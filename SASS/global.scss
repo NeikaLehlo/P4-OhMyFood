@@ -9,7 +9,7 @@
 @import "./utils/variable.scss";
 /****** base ******/
 @import "./utils/base.scss";
-/****** base ******/
+/****** keyframes ******/
 @import "./utils/keyframes.scss";
 
 
@@ -50,20 +50,8 @@
 @import "./layout/restaurants.scss";
 /****** menu ******/
 @import "./layout/menu.scss";
-
-
-
-/////////////////////
-/****** PAGES ******/
-/////////////////////
-
-/****** home ******/
-@import "./pages/home.scss";
-/****** restaurant ******/
-@import "./pages/restaurant.scss";
-
-/****** restaurant ******/
-@import "./pages/test.scss";
+/****** loader ******/
+@import "./layout/loader.scss";
 
 
 

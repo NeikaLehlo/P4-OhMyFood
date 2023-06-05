@@ -6,13 +6,5 @@ TO DO :
     - loader homepage
     ✔ menu apparition animation
     ✔ animation clic selection menu.
-     - W3C
-     - $color-new-background outdated
-     - compress pictures.
-
-
-
-    HTML validator for restaurant page ?  ( span/div/h4/p in label )
-
-    // path
-// clip path
+    ✔ W3C
+    - compress pictures.
