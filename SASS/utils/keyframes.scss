@@ -166,16 +166,18 @@
     }
 }
 
-@keyframes loaderhide{
+@keyframes loaderbody{
     0%{
-        z-index: -2;
-        opacity: 0;
+        overflow : hidden;
     }
 
     99%{
-        z-index: -2;
-        opacity: 0;
+        overflow : hidden;
     }
+    100%{
+        overflow: initial;
+    }
+
 }
 
 @keyframes bread{
@@ -203,11 +205,11 @@
 @keyframes flag {
     0%{
         opacity: 1;
-        transform: scale(1000);
+        transform: scale(1000) rotate(-20deg);
     }
 
     100%{
         opacity: 1;
-        trnasform: scale(1);
+        transform: scale(1) rotate(-20deg);
     }
 }

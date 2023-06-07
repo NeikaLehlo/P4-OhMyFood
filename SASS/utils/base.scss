@@ -5,7 +5,7 @@
 body{
     display: flex;
     justify-content: center;
-    margin: 0px;
+    margin: 0px;  
 }
 
 .body__container{
@@ -20,4 +20,8 @@ h2{
 
 input[type="checkbox"]{
     display: none;
+}
+
+.body-loader {
+    animation: loaderbody 4s forwards;
 }
